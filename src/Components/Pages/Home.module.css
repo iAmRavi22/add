@@ -1,0 +1,76 @@
+.home{
+max-width: 100%;
+} 
+
+.homeaddurl {
+    
+    display: flex;
+    justify-content: center;
+    padding-left: 2%;
+    padding-right: 2%;
+    color:black;
+}
+
+.urlList ul{
+    margin:0.5em;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+.urlList ul li{
+    display: flex;
+    justify-content: space-around;
+    background-color: white;
+    list-style-type: none;
+    padding-left: 10vh;
+    padding-right: 10vh;
+    padding-top:0.5em;
+    padding-bottom: 0.5em;
+    border-radius: 3px;
+    max-width: 100%;
+    color:white;
+    
+    overflow: hidden;
+
+   
+    
+}
+.urlList ul li div:first-child{
+    background-color: blue;
+    border: blue;
+    border-radius: 5px;
+    padding:1em;
+    margin:0.5em;
+    white-space: normal;
+    float: left;
+    width: 100%;
+    height: auto;
+    word-wrap: break-word;
+    text-align: left;
+    
+    
+    
+}
+
+.urlList ul li div {
+    display: block;
+    padding: 0.5em;
+}
+
+.urlList ul li div button:nth-child(1){
+    color: rgb(56, 190, 243);
+    margin: 0.5em;
+    height: 2em;
+    border: 2px solid rgb(56, 190, 243);
+    border-radius: 3px;
+    background-color: white;
+
+}
+.urlList ul li div button:nth-child(2){
+    color: red;
+    margin: 0.5em;
+    height: 2em;
+    border: 2px solid red;
+    border-radius: 3px;
+    background-color: white;
+}

@@ -1,0 +1,52 @@
+.app{
+    color:white;
+    background-color: black;
+    padding-bottom: 1vh;
+    height: 1vh;
+}
+.app ul{
+    padding-left: 0rem;
+}
+
+
+
+.App {
+    text-align: center;
+}
+
+.urlList ul li{
+    background-color: blue;
+    list-style-type: none;
+    margin:1vh;
+    padding:1em;
+    border-radius: 3px;
+    word-wrap: break-word;
+}
+.card{
+    border: none!important;
+}
+
+ul.card li {
+    width: 33.33%;
+    background-color: #f9f9f9;
+    border: 1px solid #dbdbdb;
+    margin: 0px 15px;
+    padding: 24px;
+    display: inline-block;
+  }
+  ul.card li {
+        color:#000;
+  }
+  .name{
+    color: #000;
+    display: block;
+    margin-bottom: 10px;
+  }
+  .card-btn button {
+    background-color: #14a800;
+    border: none;
+    color: #fff;
+    padding: 4px 14px;
+    border-radius: 4px;
+    margin-right: 14px;
+  }

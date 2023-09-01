@@ -1,0 +1,21 @@
+.view{
+    color:black;
+    text-align: left;
+}
+
+.view h2{
+    text-align: center;
+    padding: 2em;
+}
+.active{
+    color: black;;
+    background-color: cyan;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    padding:1em;
+}
+
+.inactive{
+    color:black;
+    padding: 1em;
+}
